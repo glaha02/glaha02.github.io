@@ -1,0 +1,11 @@
+.parallax {
+  /* 設定背景圖片/居中/不重覆 */
+  background: image(mythology.jpg) center center no-repeat;
+
+  /* 設定區塊高度 */
+  min-height: 600px; 
+
+  /* 背景自動縮放/固定 */
+  background-attachment: fixed;
+  background-size: cover;
+}
